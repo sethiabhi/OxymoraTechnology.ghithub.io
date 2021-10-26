@@ -1,0 +1,93 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+/* Styling for Back to Top Button */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(46, 57, 61); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-weight: 900; /* Increase font size */
+}
+h1 {
+  font-weight: 400;
+}
+.RBGI .container {
+  background-color: rgba(255, 255, 255, 0.884);
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#myBtn:hover {
+  background-color: #23c0e4;
+  color: white; /* Add a dark-grey background on hover */
+}
+/* Styling for Back to Top Button End Here*/
+
+/* styling background Images starts Here*/
+.RBGI {
+  width: 100%;
+  background-image: url("Images/whoWeAre\ 1.png");
+  opacity: 0.7;
+  background-size: 100% 100%;
+  text-align: left;
+  margin-top: auto;
+  line-height: 2;
+  display: inline-block;
+}
+/* styling background Images End Here */
+ul .dropdown-menu {
+  background-color: black;
+}
+li .dropdown-item {
+  background-color: black;
+  font-weight: 200;
+}
+.dropdown-item:hover {
+  background-color: black;
+}
+li .nav-link {
+  font-weight: 200;
+}
+.blacktext {
+  color: black;
+}
+.RBGI h1 {
+  color: white;
+  background: #fff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(73, 217, 236, 0.8)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(73, 217, 236, 0.8)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ideaSec {
+  color: white;
+}
+
+.divImg {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .divImg {
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
